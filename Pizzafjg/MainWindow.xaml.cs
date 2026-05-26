@@ -107,7 +107,7 @@ namespace pizzaShop
 
         private bool HasDiscount()
         {
-            return PromoTb.Text.ToLower() == "gopr";
+            return PromoTb.Text.ToLower() == "pizza10";
         }
         private void AnyParameter_Changed(object sender, RoutedEventArgs e)
         {
@@ -210,7 +210,7 @@ namespace pizzaShop
             if (GribChbx.IsChecked == true)
                 return "Грибочки";
             else
-                return "ХАХАХАХ ЛОШАРА ЕБАНЫЙ БЕДНОЕ ЧМО";
+                return "нет доп";
         }
 
         private void ReserBtn_Click(object sender, RoutedEventArgs e)
