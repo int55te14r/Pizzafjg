@@ -194,7 +194,7 @@ namespace pizzaShop
                 total += 100;
 
             if (GribChbx.IsChecked == true)
-                total += 5000;
+                total += 80;
 
             return total;
         }

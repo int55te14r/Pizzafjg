@@ -185,7 +185,7 @@
                   Click="AnyParameter_Changed"/>
 
                 <CheckBox x:Name="GribChbx"
-                  Content="грибочки +5000 руб."
+                  Content="грибочки +80 руб."
                   Click="AnyParameter_Changed"/>
 
             </StackPanel>
